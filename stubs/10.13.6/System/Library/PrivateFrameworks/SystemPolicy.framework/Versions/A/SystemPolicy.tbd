@@ -1,0 +1,30 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 6E6A06A4-0C64-33F8-BF8C-2B1111F24B9D', 'x86_64: 448C34C1-B064-3981-B3E2-136416F2ECCB' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/SystemPolicy
+exports:         
+  - archs:           [ x86_64 ]
+    objc-ivars:      [ _SPKernelExtensionPolicy._connection, _SPKernelExtensionPolicy._currentPolicy, 
+                       _SPKernelExtensionPolicy._interface, _SPKernelExtensionPolicyItem._allowed, 
+                       _SPKernelExtensionPolicyItem._applicationName, _SPKernelExtensionPolicyItem._applicationPath, 
+                       _SPKernelExtensionPolicyItem._bundleIDs, _SPKernelExtensionPolicyItem._developerName, 
+                       _SPKernelExtensionPolicyItem._originalAllowed, _SPKernelExtensionPolicyItem._rebootRequired, 
+                       _SPKernelExtensionPolicyItem._teamID ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _SystemPolicyVersionNumber, _SystemPolicyVersionString, _copyAdhocSignatureHash, 
+                       _copyBootUUID, _copyBundleID, _copyBundleVersion, _copyCdhash, 
+                       _copyCdhashFromKextURL, _copyDeveloperName, _copyLegacyBundleID, 
+                       _copyLegacyCdhash, _copyLegacyDeveloperName, _copyLegacyKextListEntry, 
+                       _copySigningID, _copySystemRequiredKernelExtensions, _copyTeamIdentifier, 
+                       _copyUnstagedURL, _createCodeReference, _createFileIDFromURL, 
+                       _createHexStringFromData, _createURLWithoutPrefix, _findContainingBundle, 
+                       _findFirstSubdirectoryURL, _findTopBundle, _getDictionaryValue, 
+                       _isAdhocSignature, _isAppleInternalMachine, _isAppleSignedCode, 
+                       _isCdhashOnLegacyList, _isCodelessKext, _isKernelExtensionPolicyForceEnabled, 
+                       _isKernelExtensionSystemRequired, _isSIPDisabledMachine, _isSKELDisabledMachine, 
+                       _isValidInfoPlist, _kextDefaultAllowed, _makeStringOrNil, 
+                       _normalizeURL, _scanForBundledKernelExtensions, _scanForKernelExtensions, 
+                       _systemUptime, _urlLooksLikeBundle ]
+    objc-classes:    [ _SPKernelExtensionPolicy, _SPKernelExtensionPolicyItem, _SPMigration ]
+...

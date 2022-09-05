@@ -1,0 +1,18 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 0C60A841-5853-3CC8-94AA-24E5396ECA81', 'x86_64: E4BB369F-85A7-35A6-B5AE-57642CA844CE' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/RemotePacketCapture.framework/Versions/A/RemotePacketCapture
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _RemotePacketCaptureCopyCurrentDevices, _RemotePacketCaptureCreate, 
+                       _RemotePacketCaptureRegisterErrorNotification, _RemotePacketCaptureRegisterPacketNotification, 
+                       _RemotePacketCaptureStart, _RemotePacketCaptureStop, ___RemotePacketCapture, 
+                       ___RemotePacketCaptureRef, _rpmuxd_notification_error_report, 
+                       _rpmuxd_notification_packet_forward, _rpmuxd_notification_rpmuxd_notify_subsystem, 
+                       _rpmuxd_notify_error_report, _rpmuxd_notify_packet_forward, 
+                       _rpmuxd_notify_server, _rpmuxd_notify_server_routine, _rpmuxd_request_deregister_notification_port, 
+                       _rpmuxd_request_get_current_devices, _rpmuxd_request_register_notification_port, 
+                       _rpmuxd_request_start_packet_capture, _rpmuxd_request_stop_packet_capture ]
+...

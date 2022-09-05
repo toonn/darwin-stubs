@@ -1,0 +1,33 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 97B7859F-B955-3D12-8D53-6A5048AD0989' ]
+platform:        macosx
+install-name:    '@rpath/MobileDeviceKitLite.framework/Versions/A/MobileDeviceKitLite'
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _MDKApplicationDSIDKey, _MDKApplicationSINFKey, _MDKApplicationTypeAny, 
+                       _MDKApplicationTypeInternal, _MDKApplicationTypeSystem, _MDKApplicationTypeUser, 
+                       _MDKAttributeHasSettingsBundle, _MDKBackupDisplayNameKey, 
+                       _MDKBackupInstalledApplicationsKey, _MDKBackupIsEncryptedKey, 
+                       _MDKBackupPathKey, _MDKBackupProductTypeKey, _MDKBackupProductVersionKey, 
+                       _MDKBackupSourceIdentifierKey, _MDKBackupTargetIdentifierKey, 
+                       _MDKBackupiTunesFilesKey, _MDKErrorWithCodeAndUserInfo, _MDKLastBackupDateKey, 
+                       _MDKLookupApplicationTypeKey, _MDKLookupAttributeKey, _MDKLookupBundleIDsKey, 
+                       _MDKLookupReturnAttributesKey, _MDKLookupShowLaunchProhibitedAppsKey, 
+                       _MDKMobileSyncErrorWithCode, _MDKRestorableDeviceLogTypeDevice, 
+                       _MDKRestorableDeviceLogTypeHost, _MDKRestorableDeviceLogTypeSerial, 
+                       _MDKSignerIdentityKey, _MDKiTunesArtworkKey, _MDKiTunesMetadataKey, 
+                       _MobileDeviceKitLiteVersionNumber, _MobileDeviceKitLiteVersionString ]
+    objc-classes:    [ _MDKAFCFileDescriptor, _MDKAFCGetConnectionInfoOperation, 
+                       _MDKAFCGetDeviceInfoOperation, _MDKAFCGetFileHashOperation, 
+                       _MDKAFCGetFileInfoOperation, _MDKAFCGetSizeOfPathContentsOperation, 
+                       _MDKAFCLinkPathOperation, _MDKAFCMakeDirectoryOperation, _MDKAFCOpenFileOperation, 
+                       _MDKAFCOperation, _MDKAFCReadDirectoryOperation, _MDKAFCRemovePathOperation, 
+                       _MDKAFCRenamePathOperation, _MDKAFCService, _MDKAFCSetConnectionOptionsOperation, 
+                       _MDKAFCSetModTimeForPathOperation, _MDKManagedConfigService, 
+                       _MDKMobileDevice, _MDKMobileDeviceNotifier, _MDKMobileInstallService, 
+                       _MDKMobileProvisioningService, _MDKMobileSync, _MDKNotificationService, 
+                       _MDKProvisioningProfile, _MDKRestorableBuild, _MDKRestorableDevice, 
+                       _MDKRestorableDeviceNotifier, _MDKServiceConnection, _MDKSpringBoardService, 
+                       _MDKSyslogRelayService, __MDKLocalizationHelper, __MDKNotificationServiceHelper ]
+...

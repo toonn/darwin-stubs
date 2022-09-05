@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs: [x86_64]
+uuids: ['x86_64: 073A9E82-EED8-3B97-A29E-6A80F77A5AF3']
+platform: macosx
+install-name: /System/Library/PrivateFrameworks/DirectoryServer.framework/Versions/A/DirectoryServer
+exports:
+- archs: [x86_64]
+  re-exports: [! '@DirectoryServer@/Library/Frameworks/DirectoryServer.framework/Frameworks/CFDirectoryServer.framework/Versions/A/CFDirectoryServer']
+  symbols: [_DSCopyFQDNForSelf, _DSRunTask, _DSRunTaskAsync, _kDefaultLocaleName,
+    _kKeyLocaleInterfaces, _kKeyNumLocalesUsedIn, _kLdapiNodeName, _kLdapiURI, _kLocaleConfigRecName,
+    _kLocaleGroupPrefix, _kODAttributeTypeDNSDomain, _kODAttributeTypeLocaleSubnets]
+  objc-classes: [_DSLocale, _DSLog]
+  objc-ivars: [_DSLog.asl, _DSLog.logfd]
+...

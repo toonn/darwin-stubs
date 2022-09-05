@@ -1,0 +1,55 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 460A04B2-19B1-3C7E-A9C9-37BE5DF47647' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/BridgeOSInstall.framework/Versions/A/BridgeOSInstall
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _BOSErrorDomain, _BOSErrorIsNetworkingRelated, _BOSErrorIsTATSUDeclinedAuthorization, 
+                       _BOSLogObject, _BOSNVRAMNamespaceAppleSecureBoot, _BOSNVRAMNamespaceStartupManager, 
+                       _BOSRequestClientContextKeyBrainBundleIdentifier, _BOSRequestClientContextKeyBrainBundleVersion, 
+                       _BOSRequestClientContextKeyUpdateBundleIdentifier, _BOSRequestClientContextKeyUpdateBundleVersion, 
+                       _BOSRequestControlOperationRequestContextClientKey, _BOSShouldLogToInstallLog, 
+                       _BOSShouldLogToStderr, _BridgeOSInstallClientBootRecoveryAssistant, 
+                       _BridgeOSInstallClientCLI, _BridgeOSInstallClientDistributionKit, 
+                       _BridgeOSInstallClientInstallAssistant, _BridgeOSInstallClientInternal, 
+                       _BridgeOSInstallClientMacBuddy, _BridgeOSInstallClientSoftwareUpdate, 
+                       _BridgeOSInstallClientUnitTest, _BridgeOSInstallOptionBridgeOSSoftwareUpdateEventRecordingServiceURL, 
+                       _BridgeOSInstallOptionCleanInstall, _BridgeOSInstallOptionEnableSSO, 
+                       _BridgeOSInstallOptionLoopbackEnabled, _BridgeOSInstallOptionMinimumRequiredBridgeOSVersion, 
+                       _BridgeOSInstallOptionShowUI, _BridgeOSInstallOptionTestModeEnabled, 
+                       _BridgeOSInstallStatusKeyEstimatedTimeRemaining, _BridgeOSInstallStatusKeyPercentComplete, 
+                       _BridgeOSInstallVersionNumber, _BridgeOSInstallVersionString, 
+                       _MSUCatalogAppleCatalogURLKey, _MSUCatalogApplePostURLKey, 
+                       _MSUCatalogBaseURLStringKey, _MSUCatalogErrorDomain, _MSUCatalogIndexDateKey, 
+                       _MSUCatalogOverrideBaseURLStringKey, _MSUCatalogPackageDigestStringKey, 
+                       _MSUCatalogPackageMD5DataKey, _MSUCatalogPackageMetadataURLStringKey, 
+                       _MSUCatalogPackageSizeKey, _MSUCatalogPackageURLStringKey, 
+                       _MSUCatalogProductBuildVersionInternalKey, _MSUCatalogProductBuildVersionKey, 
+                       _MSUCatalogProductDistributionsDictKey, _MSUCatalogProductExtendedMetaInfoAutoInstallDelayKey, 
+                       _MSUCatalogProductExtendedMetaInfoCriticalUpdateKey, _MSUCatalogProductExtendedMetaInfoKey, 
+                       _MSUCatalogProductExtendedMetaInfoNotifyAfterKey, _MSUCatalogProductPackagesKey, 
+                       _MSUCatalogProductPostDateKey, _MSUCatalogProductStagedPrefixInternalKey, 
+                       _MSUCatalogProductStagedSuffixInternalKey, _MSUCatalogProductUpdateStateKey, 
+                       _MSUCatalogProductUpdateTypeKey, _MSUCatalogProductUpdateVersionKey, 
+                       _MSUCatalogProductsDictKey, _MSUCatalogTestModeAnyCert, _MSUCatalogTestModeDevKey, 
+                       _MSUCatalogTestModeStringInternalKey, _MSUCatalogVersionNumberKey, 
+                       _MSUDataDownloaderErrorDomain, _MSUProductEvaluationOptionAlwaysFetchProductMetadata, 
+                       _MSUProductEvaluationOptionEvaluatorMetaInfo, _MSUProductEvaluationOptionInterfaceType, 
+                       _MSUProductEvaluationOptionPredicate, _MSUProductManagerErrorDomain, 
+                       _MSUUpdateTypeBridgeOSUpdate, _MSUUpdateTypePrinterUpdate, 
+                       _MSUUpdateTypeSafariUpdate, _MSUUpdateTypeSystemSoftwareUpdate, 
+                       _MSUUpdateTypeiTunesUpdate, __weak_BOSReporterServiceController, 
+                       _msu_qos_class_self, _standardErrorDateFormatter ]
+    objc-classes:    [ _BOSBrainBundle, _BOSBundleComponentVersion, _BOSConfigureRequestOperation, 
+                       _BOSDevice, _BOSError, _BOSLogCollector, _BOSNVRAM, _BOSOperation, 
+                       _BOSOperationController, _BOSPackageAnalyzer, _BOSPredicateUpdateProductManager, 
+                       _BOSPreferences, _BOSQueryCurrentStateOperation, _BOSRequest, 
+                       _BOSRequestControlOperation, _BOSSUCApplyOperation, _BOSSUCCancelOperation, 
+                       _BOSSUCOperation, _BOSSUCPreflightOperation, _BOSSUCPrepareOperation, 
+                       _BOSSUCPurgeOperation, _BOSSUCTransferBrainOperation, _BOSSUCTransferBundleOperation, 
+                       _BOSTelemetry, _BOSUpdateBundle, _BOSUtilities, _BridgeOSInstallController, 
+                       _BridgeOSInstallDownloader, _MSUCatalog, _MSUContentLocatorPackageSource, 
+                       _MSUDataDownloader, _MSUNSURLConnectionDataDownloader, _MSUNSURLSessionDataDownloader, 
+                       _MSUPackage, _MSUProduct, _MSUProductManager ]
+...

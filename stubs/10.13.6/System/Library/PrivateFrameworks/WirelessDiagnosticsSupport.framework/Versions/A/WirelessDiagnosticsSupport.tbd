@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: EE0BEEA9-AC4E-32D0-B5ED-B86AF8AAF486' ]
+platform:        macosx
+install-name:    '@rpath/WirelessDiagnosticsSupport.framework/Versions/A/WirelessDiagnosticsSupport'
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _WirelessDiagnosticsSupportVersionNumber, _WirelessDiagnosticsSupportVersionString ]
+    objc-classes:    [ _WDLogger, _WDXPCClient ]
+...

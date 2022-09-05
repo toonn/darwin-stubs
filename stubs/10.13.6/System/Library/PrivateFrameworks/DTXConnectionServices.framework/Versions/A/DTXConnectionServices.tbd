@@ -1,0 +1,34 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: A4E107FD-EF5C-3426-B8EE-2330D94D1216' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/DTXConnectionServices.framework/Versions/A/DTXConnectionServices
+current-version: 64064
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CFArrayCreateWithDTXPrimitiveArray, _CFDictionaryCreateWithDTXPrimitiveDictionary, 
+                       _DTXConnectionServicesVersionNumber, _DTXConnectionServicesVersionString, 
+                       _DTXErrorExceptionUserInfoKey, _DTXPrimitiveArrayAppendBuffer, 
+                       _DTXPrimitiveArrayAppendValues, _DTXPrimitiveArrayCreate, 
+                       _DTXPrimitiveArrayCreateWithTypesAndValues, _DTXPrimitiveArrayDestroy, 
+                       _DTXPrimitiveArrayGetSerialized, _DTXPrimitiveArrayReferencingSerialized, 
+                       _DTXPrimitiveDictionaryAddBufferPair, _DTXPrimitiveDictionaryAddPrimitivePair, 
+                       _DTXPrimitiveDictionaryCreate, _DTXPrimitiveDictionaryDestroy, 
+                       _DTXPrimitiveDictionaryGetSerialized, _DTXPrimitiveDictionaryReferencingSerialized, 
+                       '_OBJC_EHTYPE_$_DTXDecompressionException', __DTXPrimitiveDictionaryEnumerate, 
+                       __DTXPrimitiveDictionaryGetCount, __createObjectFromPrimitiveType, 
+                       _kDTXAckBarrierMessage, _kDTXBarrierMessage, _kDTXHeartbeatMessage, 
+                       _kDTXInterruptionMessage ]
+    objc-classes:    [ _DTXBlockCompressorFactory, _DTXBlockCompressorLibCompression, 
+                       _DTXChannel, _DTXConnection, _DTXDecompressionException, _DTXFileDescriptorTransport, 
+                       _DTXFoundationURLTransport, _DTXMachTransport, _DTXMessage, 
+                       _DTXMessageParser, _DTXMessageTransmitter, _DTXProxyChannel, 
+                       _DTXRemoteInvocationReceipt, _DTXResourceTracker, _DTXSendAndWaitRateLimiter, 
+                       _DTXSendAndWaitStats, _DTXService, _DTXSharedMemoryTransport, 
+                       _DTXSocketTransport, _DTXTransport, __DTXProxy ]
+    objc-ivars:      [ _DTXBlockCompressorLibCompression._lz4ScratchBuffer, _DTXBlockCompressorLibCompression._lzfseScratchBuffer, 
+                       _DTXResourceTracker._acqSem, _DTXResourceTracker._acquireNum, 
+                       _DTXResourceTracker._log, _DTXResourceTracker._maxChunk, _DTXResourceTracker._parentTracker, 
+                       _DTXResourceTracker._queue, _DTXResourceTracker._suspendCount, 
+                       _DTXResourceTracker._total, _DTXResourceTracker._used, _DTXResourceTracker._waiting ]
+...

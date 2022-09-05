@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: E454001E-E42F-3C18-AA01-0175530A7355' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/Menu Extras/TextInput.menu/Contents/SharedFrameworks/TextInputUI.framework/Versions/A/TextInputUI
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CreateNSImageFromIconRef, _GetKeyFocusProcess, _MessageTracerLogDidSwitch, 
+                       _TISMakeRectWithAspectRatioInsideRect, _createAlignedImage, 
+                       _kIMSReceiveUIServerMessagesPortName, _kTouchBarReceiveDisableInputMessagesPortName ]
+    objc-classes:    [ _CPInputSource, _HUDWindowController, _HandwritingInputSource, 
+                       _IMInputSource, _InputSource, _InputSourceTargetEnumerator, 
+                       _SourceIndicatorWindowController, _TIMIconLabel, _TIMLog, 
+                       _TISHotKeyHandler, _TSMMessageHandler, _TextInputUtilities ]
+...

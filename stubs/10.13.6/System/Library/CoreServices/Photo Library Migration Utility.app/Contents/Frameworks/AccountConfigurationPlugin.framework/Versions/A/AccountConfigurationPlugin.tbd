@@ -1,0 +1,49 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 558CA6FA-ECD6-35D1-B984-A4289499D693' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/Photo Library Migration Utility.app/Contents/Frameworks/AccountConfigurationPlugin.framework/Versions/A/AccountConfigurationPlugin
+current-version: 428.16
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _AccountConfigurationPluginVersionNumber, _AccountConfigurationPluginVersionString, 
+                       _IPHAccountConfigurationChangeNotificationName, _IPHAccountConfigurationChangeObjectKey, 
+                       _IPHAccountConfigurationChangeTypeCreate, _IPHAccountConfigurationChangeTypeDelete, 
+                       _IPHAccountConfigurationChangeTypeKey, _IPHAccountConfigurationChangeTypeUpdate, 
+                       _IPHAccountConfigurationChangeTypeWillDelete, _IPHAccountConfigurationDidReauthenticateSuccessfullyNotificationName, 
+                       _IPHAccountConfigurationFoundMobileMeAccountNotificationName, 
+                       _IPHAccountConfigurationPasswordMissingNotificationName, _IPHAccountDisplayNameKey, 
+                       _IPHAccountEmailFullNameKey, _IPHAccountEmailProviderIdentifierKey, 
+                       _IPHAccountEmailRememberPasswordKey, _IPHAccountEmailSMTPServerHostnameKey, 
+                       _IPHAccountEmailSMTPServerPortKey, _IPHAccountEmailSMTPServerUseSSLKey, 
+                       _IPHAccountEmailSMTPServerUsernameKey, _IPHAccountEmailWasImportedFromMailAppKey, 
+                       _IPHAccountIdentifierKey, _IPHAccountLastUpdateTimeKey, _IPHAccountSettingsKey, 
+                       _IPHAccountTypeEmail, _IPHAccountTypeKey, _IPHAccountUpdateIntervalKey, 
+                       _IPHAccountWasGeneratedAutomaticallyKey, _IPHEmailProviderAOLIdentifier, 
+                       _IPHEmailProviderGmailIdentifier, _IPHEmailProviderHotmailIdentifier, 
+                       _IPHEmailProviderMobileMeIdentifier, _IPHEmailProviderOtherIdentifier, 
+                       _IPHEmailProviderYahooIdentifier, _IPHEmailProvideriCloudIdentifier ]
+    objc-classes:    [ _AccountConfiguration, _AccountConfigurationEmailProviders, 
+                       _AccountConfigurationManagerBase, _AccountConfigurationPluginBase, 
+                       _AccountConfigurationProfileInformationDownloadOperation, 
+                       _AccountConfigurationPublishServicePlugin ]
+    objc-ivars:      [ _AccountConfiguration.accountIdentifier, _AccountConfiguration.accountType, 
+                       _AccountConfiguration.didChangePassword, _AccountConfiguration.displayName, 
+                       _AccountConfiguration.isDisabled, _AccountConfiguration.isExpired, 
+                       _AccountConfiguration.isTemporary, _AccountConfiguration.lastUpdateTime, 
+                       _AccountConfiguration.manager, _AccountConfiguration.password, 
+                       _AccountConfiguration.settings, _AccountConfiguration.snapshot, 
+                       _AccountConfiguration.updateInterval, _AccountConfigurationManagerBase.accountConfigurations, 
+                       _AccountConfigurationManagerBase.accountDataUpdateQueue, _AccountConfigurationManagerBase.configurationsArrayController, 
+                       _AccountConfigurationManagerBase.didLoadAccounts, _AccountConfigurationManagerBase.isAddingAccount, 
+                       _AccountConfigurationManagerBase.plugins, _AccountConfigurationManagerBase.pluginsArrayController, 
+                       _AccountConfigurationManagerBase.publishServiceUpdateTimer, 
+                       _AccountConfigurationPluginBase.autoCheckButton, _AccountConfigurationPluginBase.editedConfiguration, 
+                       _AccountConfigurationPluginBase.loginErrorMessage, _AccountConfigurationPluginBase.loginSheet, 
+                       _AccountConfigurationPluginBase.loginSheetExpandedHeight, 
+                       _AccountConfigurationPluginBase.networkOperationInProgress, 
+                       _AccountConfigurationPluginBase.passwordSheet, _AccountConfigurationPluginBase.passwordSheetExpandedHeight, 
+                       _AccountConfigurationPluginBase.pluginManager, _AccountConfigurationProfileInformationDownloadOperation.configuration, 
+                       _AccountConfigurationProfileInformationDownloadOperation.displayName, 
+                       _AccountConfigurationProfileInformationDownloadOperation.manager ]
+...

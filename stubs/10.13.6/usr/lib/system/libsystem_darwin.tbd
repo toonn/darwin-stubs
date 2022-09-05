@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 943DCCC9-FB64-3AA7-B95F-C1B3003DE3F2', 'x86_64: 6195EEA1-83A7-35F0-8147-5AB031020CD0' ]
+platform:        macosx
+install-name:    /usr/lib/system/libsystem_darwin.dylib
+objc-constraint: none
+parent-umbrella: System
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___darwinVersionNumber, ___darwinVersionString, ___libdarwin_init, 
+                       __dirstat_fileid_set_add, __dirstat_fileid_set_create, __dirstat_fileid_set_destroy, 
+                       _dirstat_np, _dirstatat_np, _os_variant_allows_internal_security_policies, 
+                       _os_variant_has_internal_content, _os_variant_has_internal_diagnostics, 
+                       _os_variant_has_internal_ui ]
+...

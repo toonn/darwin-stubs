@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 1B071ECD-A0DF-3283-B38B-EC1F9B7DF758' ]
+platform:        macosx
+install-name:    '@rpath/BroadcomWLAN.framework/Versions/A/BroadcomWLAN'
+objc-constraint: none
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _BroadcomWLANVersionNumber, _BroadcomWLANVersionString ]
+...

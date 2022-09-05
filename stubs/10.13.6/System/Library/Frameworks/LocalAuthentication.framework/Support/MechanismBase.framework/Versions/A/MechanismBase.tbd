@@ -1,0 +1,12 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 109118FF-6170-3E47-A894-003F486854CC' ]
+platform:        macosx
+install-name:    /System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismBase.framework/Versions/A/MechanismBase
+current-version: 425.70.2
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _MechanismBaseVersionNumber, _MechanismBaseVersionString ]
+    objc-classes:    [ _ACMContextRecord, _MechanismACM, _MechanismBase, _MechanismContext, 
+                       _MechanismKofN, _MechanismKofNReorganizer, _RemoteUIManager ]
+...

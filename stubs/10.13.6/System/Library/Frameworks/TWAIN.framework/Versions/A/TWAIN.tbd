@@ -1,0 +1,9 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 2C9F0995-AC1A-3B09-B4DC-4F1537E3393A', 'x86_64: 1B7E1331-7CC8-3578-BB6A-EF12CFCAF2B7' ]
+platform:        macosx
+install-name:    /System/Library/Frameworks/TWAIN.framework/Versions/A/TWAIN
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _DSM_Entry ]
+...

@@ -1,0 +1,37 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 86C2062E-AF9D-3569-8E34-A8F45B271380' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/Photo Library Migration Utility.app/Contents/Frameworks/PhotoFoundation.framework/Versions/A/PhotoFoundation
+current-version: 910
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _PFCMTimeFromQTTimeString, _PFCMTimeRangeFromQTTimeRangeString, 
+                       _PFDeviceBuildVersion, _PFDeviceOSVersion, _PFDevicePairedState, 
+                       _PFDevicePropertyClass, _PFDevicePropertyColor, _PFDevicePropertyEnclosureColor, 
+                       _PFDevicePropertyProductType, _PFErrorDomain, _PFExists, _PFFilter, 
+                       _PFFind, _PFMap, _PFReduce, _PFXPCHelperErrorDomain, _PFXPCHelperInvalidArgumentsCode, 
+                       _PhotoFoundationVersionNumber, _PhotoFoundationVersionString, 
+                       __Z14mach_task_infojjPij, __Z16mach_thread_infojjPij, __Z17task_thread_countj, 
+                       __Z19mon_task_with_statsU13block_pointerFvP14mon_task_statsE, 
+                       __Z33mon_thread_with_main_thread_statsU13block_pointerFvP16mon_thread_statsE, 
+                       _mach_absolute_time_to_nanos, _mach_time_value_to_nanos, _mon_cpu_sample_clear, 
+                       _mon_cpu_sample_copy, _mon_cpu_sample_delta_init, _mon_cpu_times_clear, 
+                       _mon_cpu_times_copy, _mon_cpu_times_delta_init, _mon_cur_logical_cpu, 
+                       _mon_cur_physical_cpu, _mon_main_pthread, _mon_main_thread, 
+                       _mon_max_logical_cpu, _mon_max_physical_cpu, _mon_observe_current_thread, 
+                       _mon_observe_current_thread_get, _mon_observe_current_thread_reset, 
+                       _mon_observe_mach_thread, _mon_observe_mach_thread_get, _mon_observe_mach_thread_reset, 
+                       _mon_observe_main_thread_get, _mon_observe_main_thread_reset, 
+                       _mon_observe_pthread, _mon_observe_pthread_get, _mon_observe_pthread_reset, 
+                       _mon_observe_task, _mon_observe_task_get, _mon_observe_thread_id, 
+                       _mon_observe_thread_id_get, _mon_observe_thread_id_reset, 
+                       _mon_perf_report_queue, _mon_perf_sample_queue, _mon_task_copy_stats, 
+                       _mon_task_dump_stats, _mon_task_sample_copy, _mon_task_sample_delta_init, 
+                       _mon_task_sample_init, _mon_task_take_sample, _mon_thread_copy_main_thread_stats, 
+                       _mon_thread_cpu_sample, _mon_thread_cpu_times, _mon_thread_sample_copy, 
+                       _mon_thread_sample_delta_init, _mon_thread_take_main_thread_sample, 
+                       _mon_wall_time_nanos ]
+    objc-classes:    [ _PFDevicePropertyReader, _PFHistogram, _PFISO6709Parser, _PFSandboxEnvironment, 
+                       _PFStatistic, _PFUtilities, _PFXPCHelper ]
+...

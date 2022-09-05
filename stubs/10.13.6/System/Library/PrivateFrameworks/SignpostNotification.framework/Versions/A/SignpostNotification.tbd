@@ -1,0 +1,24 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 33786429-782D-3302-8113-EA80EFC368A5', 'x86_64: E77879A4-B040-3BE0-86F5-98173A4100AD' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/SignpostNotification.framework/Versions/A/SignpostNotification
+current-version: 2.6
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _EnableSignpostNotificationGeneration, _FillLogMessageUsingSignpostReportXPCDictionary, 
+                       _SignpostEventReportXPCDictionaryForHook, _SignpostGetNewNotificationConnection, 
+                       _SignpostNotificationSendNotificationSubscriptionRequestOnConnection, 
+                       _SignpostNotificationVersionNumber, _SignpostNotificationVersionString, 
+                       _kSignpostNotificationXPCDict_CategoryKey, _kSignpostNotificationXPCDict_ComposedMessageKey, 
+                       _kSignpostNotificationXPCDict_MachContinuousTimeKey, _kSignpostNotificationXPCDict_ProcessIDKey, 
+                       _kSignpostNotificationXPCDict_ProcessImagePathKey, _kSignpostNotificationXPCDict_ScopeKey, 
+                       _kSignpostNotificationXPCDict_SignpostIDKey, _kSignpostNotificationXPCDict_SubsystemKey, 
+                       _kSignpostNotificationXPCDict_ThreadIDKey, _kSignpostNotificationXPCDict_TotalFrameCountKey, 
+                       _kSignpostNotificationXPCDict_TypeKey, _kSignpostReportXPCDict_BufferKey, 
+                       _kSignpostReportXPCDict_CategoryKey, _kSignpostReportXPCDict_FormatKey, 
+                       _kSignpostReportXPCDict_MachContinuousTimeKey, _kSignpostReportXPCDict_OpaqueFlagsKey, 
+                       _kSignpostReportXPCDict_PrivDataKey, _kSignpostReportXPCDict_ScopeKey, 
+                       _kSignpostReportXPCDict_SignpostIDKey, _kSignpostReportXPCDict_SubsystemKey, 
+                       _kSignpostReportXPCDict_ThreadIDKey, _kSignpostReportXPCDict_TypeKey ]
+...

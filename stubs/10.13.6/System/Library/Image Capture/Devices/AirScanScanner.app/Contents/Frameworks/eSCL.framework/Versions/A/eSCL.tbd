@@ -1,0 +1,29 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: B00D1C0D-247F-3348-946D-9B4E14F56C82' ]
+platform:        macosx
+install-name:    '@rpath/eSCL.framework/Versions/A/eSCL'
+current-version: 51
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _AirScanLog, _AirScanLogConditional, _AirScanLogConditionalVA, 
+                       _AirScanLogVA, _AirScanLoggingEnabled, _AirScanSaveData, _AirScanSaveDataVA, 
+                       _AirScanSaveFile, _AirScanSavingEnabled, _AirScanShouldSaveBandData, 
+                       _CreateDNSServiceConnectionWithQueue, _DNSSDResolveCallbackUsingBlock, 
+                       _array_contains_uti, _bitmap_file_type_for_uti, _copy_all_data, 
+                       _eSCLBonjourServiceTypes, _eSCLVersionNumber, _eSCLVersionString, 
+                       _file_extension_for_UTI, _fill_buffer, _kESCLBonjourServiceTypeInsecure, 
+                       _kESCLBonjourServiceTypeSecure, _pixels_to_three_hundredths, 
+                       _round_pixels_to_nearest_three_hundredth, _string_for_integer, 
+                       _temporary_file, _temporary_file_with_suffix, _three_hundredths_to_pixels, 
+                       _write_all_data ]
+    objc-classes:    [ _ADFOptions, _DNSSDResolveCallbackData, _DefaultESCLAuthenticationDelegate, 
+                       _DiscreteSupportedResolutions, _InputSourceCapabilities, _JobInfo, 
+                       _Justification, _RangeAndStep, _RangeSupportedResolutions, 
+                       _Resolution, _ScanBufferInfo, _ScanRegion, _ScannerCapabilities, 
+                       _ScannerStatus, _SettingProfile, _SupportedFeatureList, _SupportedResolutions, 
+                       _eSCL, _eSCLBonjourScannerInfoSource, _eSCLScanSettings, _eSCLScanner, 
+                       _eSCLScannerBrowser, _eSCLSimpleScannerInfoSource, _eSCLURLSessionTaskCallbacks ]
+    objc-ivars:      [ _SupportedFeatureList._currentIndex, _SupportedFeatureList._defaultIndex, 
+                       _SupportedFeatureList._featureName, _SupportedFeatureList._settings ]
+...

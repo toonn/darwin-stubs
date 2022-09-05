@@ -1,0 +1,30 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: EC339505-306C-353C-85EB-1BF12C5FEBC9', 'x86_64: 9D5466C6-A8B6-3C24-A791-6506B81D9998' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _TCCAccessCheckAuditToken, _TCCAccessCopyBundleIdentifiersDisabledForService, 
+                       _TCCAccessCopyBundleIdentifiersForService, _TCCAccessCopyInformation, 
+                       _TCCAccessCopyInformationForBundle, _TCCAccessDeclarePolicy, 
+                       _TCCAccessGetOverride, _TCCAccessOverride, _TCCAccessPreflight, 
+                       _TCCAccessRequest, _TCCAccessReset, _TCCAccessResetForBundle, 
+                       _TCCAccessResetForBundleId, _TCCAccessResetForPath, _TCCAccessResetPoliciesExcept, 
+                       _TCCAccessRestricted, _TCCAccessSelectPolicyForExtensionWithIdentifier, 
+                       _TCCAccessSet, _TCCAccessSetForAuditToken, _TCCAccessSetForBundle, 
+                       _TCCAccessSetForBundleId, _TCCAccessSetForBundleIdAndCodeRequirement, 
+                       _TCCAccessSetForCodeIdentity, _TCCAccessSetForPath, _TCCAccessSetOverride, 
+                       _TCCAccessSetPidResponsibleForPid, _TCCTestInternal, _kTCCAccessCheckOptionPrompt, 
+                       _kTCCAccessRequestOptionPurpose, _kTCCCodeIdentityAuthority, 
+                       _kTCCCodeIdentityBundleID, _kTCCCodeIdentityDevIDAuthority, 
+                       _kTCCCodeIdentityEntitlementName, _kTCCCodeIdentitySigningID, 
+                       _kTCCCodeIdentityTeamID, _kTCCInfoBundle, _kTCCInfoCodeRequirement, 
+                       _kTCCInfoGranted, _kTCCInfoLastUsed, _kTCCInfoPath, _kTCCInfoService, 
+                       _kTCCServiceAccessibility, _kTCCServiceAddressBook, _kTCCServiceAll, 
+                       _kTCCServiceCalendar, _kTCCServiceFacebook, _kTCCServiceLinkedIn, 
+                       _kTCCServiceLiverpool, _kTCCServiceLocation, _kTCCServicePhotos, 
+                       _kTCCServiceReminders, _kTCCServiceShareKit, _kTCCServiceSinaWeibo, 
+                       _kTCCServiceTencentWeibo, _kTCCServiceTwitter, _kTCCServiceUbiquity ]
+...

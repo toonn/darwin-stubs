@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: B226B291-4DD0-37A8-A144-61E22465DF56' ]
+platform:        macosx
+install-name:    '@rpath/CertificateAssistant.framework/Versions/A/CertificateAssistant'
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CertificateAssistantVersionNumber, _CertificateAssistantVersionString ]
+    objc-classes:    [ _CALearnMoreSheetWindowController ]
+...

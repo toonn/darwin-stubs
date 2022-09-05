@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: BE65C69D-7341-3855-96C8-1C5012365ABA' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/IMDMessageServices.framework/Versions/A/IMDMessageServices
+current-version: 800
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _IMDMessageServicesCallbackIntervalKey, _IMDMessageServicesExpireStateDictionaryKey, 
+                       _IMDMessageServicesExpireStateKey, _IMDMessageServicesExpireStateShouldDeleteKey, 
+                       _IMDMessageServicesFlagsKey, _IMDMessageServicesRoutingDictionaryKey, 
+                       _IMDMessageServicesServiceKey, _IMDMessageServicesUpdateDowngradePropertiesKey, 
+                       _IMDMessageServicesWatchdogDictionaryKey, _IMDMessageServicesWatchdogShouldFailSendKey ]
+    objc-classes:    [ _IMDMessageServicesCenter ]
+...

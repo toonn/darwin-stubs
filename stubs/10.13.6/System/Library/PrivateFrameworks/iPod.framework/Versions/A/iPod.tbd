@@ -1,0 +1,17 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: A18971C0-A756-3B89-8BA6-D4028CD47F95', 'x86_64: 272AFF32-945B-3C8A-99CE-8E2077C2CA78' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/iPod.framework/Versions/A/iPod
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _iPodAquireLock, _iPodCopyConnected, _iPodCopyConnectedWithOptions, 
+                       _iPodCopyMountpoint, _iPodCopyName, _iPodCopyPreferences, 
+                       _iPodCopyRevision, _iPodCreate, _iPodGetLockCount, _iPodGetTypeID, 
+                       _iPodGetUniqueID, _iPodIsDiskAniPod, _iPodPreferenceGetTypeID, 
+                       _iPodPreferenceGetValue, _iPodPreferenceSetValue, _iPodRegisterServer, 
+                       _iPodRegisterWithServer, _iPodRegisterWithServerWithOptions, 
+                       _iPodReleaseLock, _iPodServerBroadcastMessage, _iPodServerRegister, 
+                       _iPodSetPreferences, _iPodUnregisterFromServer ]
+...

@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: E03C9263-2254-34C2-A14B-1CABD2AC8C9F', 'x86_64: 1EA99DF2-4C4E-3375-A4DA-6C9FFFC78762' ]
+platform:        macosx
+install-name:    /usr/lib/libcupsmime.1.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _mimeAddFilter, _mimeAddType, _mimeAddTypeRule, _mimeDelete, 
+                       _mimeDeleteFilter, _mimeDeleteType, _mimeFileType, _mimeFilter, 
+                       _mimeFilter2, _mimeFilterLookup, _mimeFirstFilter, _mimeFirstType, 
+                       _mimeLoad, _mimeLoadFilters, _mimeLoadTypes, _mimeNew, _mimeNextFilter, 
+                       _mimeNextType, _mimeNumFilters, _mimeNumTypes, _mimeSetErrorCallback, 
+                       _mimeType ]
+...

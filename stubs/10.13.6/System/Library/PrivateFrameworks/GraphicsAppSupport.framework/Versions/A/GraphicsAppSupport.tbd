@@ -1,0 +1,11 @@
+--- !tapi-tbd-v2
+archs:           [ i386 ]
+uuids:           [ 'i386: 47578E66-5B7E-343D-8249-50E11CDFE710' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/GraphicsAppSupport.framework/Versions/A/GraphicsAppSupport
+current-version: 4
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ _GraphicsAppSupportVersionNumber, _GraphicsAppSupportVersionString ]
+...

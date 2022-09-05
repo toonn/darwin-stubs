@@ -1,0 +1,17 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 85DF5D35-0086-33BE-887B-B4FD3FC6501E', 'x86_64: E8FA663F-1B0F-3B12-8F97-31A46E6B4D68' ]
+platform:        macosx
+install-name:    /usr/lib/system/libsystem_coreservices.dylib
+current-version: 51
+objc-constraint: none
+parent-umbrella: System
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _NSGetNextSearchPathEnumeration, _NSStartSearchPathEnumeration, 
+                       _NSStartSearchPathEnumerationPrivate, ___user_local_dirname, 
+                       ___user_relative_dirname, __append_relative_path_component, 
+                       __dirhelper, __dirhelper_relative, __get_user_dir_suffix, 
+                       __libcoreservices_fork_child, __set_user_dir_suffix, _sysdir_get_next_search_path_enumeration, 
+                       _sysdir_start_search_path_enumeration, _sysdir_start_search_path_enumeration_private ]
+...

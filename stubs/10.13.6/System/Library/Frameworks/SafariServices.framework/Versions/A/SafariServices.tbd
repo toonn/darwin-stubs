@@ -1,0 +1,33 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: B4136BC4-272F-3F1F-87FF-0EF92B786F41', 'x86_64: 8102DF3E-2C36-3B47-B10E-B990DABCF95D' ]
+platform:        macosx
+flags:           [ not_app_extension_safe ]
+install-name:    /System/Library/Frameworks/SafariServices.framework/Versions/A/SafariServices
+current-version: 609.3.5
+compatibility-version: 535
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _SFErrorDomain, __SFAppleBNITeamIdentifier, __SFContentBlockerExtensionPointIdentifier, 
+                       __SFExtensionEnabledKey, __SFKeychainLabel, __SFKeychainService, 
+                       __SFMacAppStoreOrDeveloperIDDistributionCodeSigningRequirement, 
+                       __SFSafariContentBlockerDidChangeDistributedNotification, 
+                       __SFSafariExtensionPointIdentifier, __SFTouchIDToAutoFillPreferenceKey ]
+    objc-classes:    [ _SFContentBlockerManager, _SFContentBlockerState, _SFSafariApplication, 
+                       _SFSafariExtension, _SFSafariExtensionHandler, _SFSafariExtensionManager, 
+                       _SFSafariExtensionRemoteViewController, _SFSafariExtensionServiceViewController, 
+                       _SFSafariExtensionState, _SFSafariExtensionViewController, 
+                       _SFSafariPage, _SFSafariPageProperties, _SFSafariTab, _SFSafariToolbarItem, 
+                       _SFSafariWindow, __SFAppExtensionsStateManager, __SFAutoFillManager, 
+                       __SFBookmark, __SFBookmarkCollection, __SFBookmarkFolder, 
+                       __SFBookmarkLeaf, __SFCodeSigningUtilities, __SFExtensionUtilities, 
+                       __SFExtensionsStateSecureStorage, __SFKeyBagLockStatusManager, 
+                       __SFSandboxUtilities ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _SSGetApplicationNameForUserAgent, _SSGetBestURLForUserTypedString, 
+                       _SSGetFullySimplifiedStringForURL, _SSGetSafariDateOfLastActiveUse, 
+                       _SSGetSyncedDataClasses, _SSHasDefaultBookmarks, _SSRemoveSyncedKeychainData, 
+                       _SSSyncedTabsServiceEnableStateChanged, __SFSafariServicesAvailable, 
+                       __SFSafariServicesVersion ]
+    objc-classes:    [ __SSHistoryAccessSession, __SSURLCompletionSession ]
+...

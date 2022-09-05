@@ -1,0 +1,24 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: A626111F-A6B5-314B-81B8-16084A50C24C', 'x86_64: 071095C1-67C7-3F06-BEA3-DBBC9A5A7694' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection
+current-version: 800
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _DLCAlertTitleKey, _DLCCollectLogs, _DLCCollectLogsWithCompletionHandler, 
+                       _DLCDefaultRadarComponentKey, _DLCDefaultRadarComponentVersionKey, 
+                       _DLCGatheringDisplayFlagsKey, _DLCLogBacktraceWithLevel, _DLCLogBacktraceWithLevelV, 
+                       _DLCLogEventWithLevel, _DLCLogEventWithLevelV, _DLCLogGatheringFlagsKey, 
+                       _DLCLogPathKey, _DLCLogWithLevel, _DLCLogWithLevelV, _DLCLoggingStringForMessageData, 
+                       _DLCSessionAction, _DLCSessionAddLogFile, _DLCSessionBeginSession, 
+                       _DLCSessionConnect, _DLCSessionDiconnect, _DLCSessionEndSession, 
+                       _DLCSessionEvent, _DLCSessionLogCallInfo, _DLCSessionLogWithLevel, 
+                       _DLCSessionLogWithLevelV, _DLCSessionNoteCheckpoint, _DLCSessionPerformSnapshot, 
+                       _DLCSessionPulse, _DLCSessionSetFailureReason, _DLCSessionSetInitiator, 
+                       _DLCSessionSetRecipient, _DLCSessionShouldLogCheckpoints, 
+                       _DLCSessionShouldLogLevel, _DLCSessionSyncLoggingsPreferences, 
+                       _DLCShouldLogLevel, _DLCShouldLogMessageBodies, _DLCWarn, 
+                       _DLCWarnV, __DLCLogEventWithLevelV, __DLCLogWithLevelFileAndLine, 
+                       __DLCLogWithLevelV, __DLCWarnV ]
+...

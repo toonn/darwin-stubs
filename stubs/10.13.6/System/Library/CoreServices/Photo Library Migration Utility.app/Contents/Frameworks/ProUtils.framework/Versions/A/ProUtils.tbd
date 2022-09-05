@@ -1,0 +1,53 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: EAA6E55D-9490-32CC-8C1D-8240D14A20A3' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/Photo Library Migration Utility.app/Contents/Frameworks/ProUtils.framework/Versions/A/ProUtils
+current-version: 910
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _AspectRatioToWholeLengths, _CompareObjectsUsingLiteralNumericKeyPathSearch, 
+                       _CompareObjectsUsingLiteralNumericKeyPathSearchDescending, 
+                       _CompareStringUsingCaseInsensitiveNumericSearch, _CompareStringUsingCaseInsensitiveNumericSearchDescending, 
+                       _CompareStringUsingLiteralSearch, _DrawCropMarksForRect, _DrawCrosshairAtPoint, 
+                       _DrawCrosshairAtPointWithThickness, _DrawCrosshairInRect, 
+                       _DrawCrosshairInRectWithThickness, _DrawXInRect, _MethodExceptionPrefix, 
+                       _NSPointAngle, _NSPointEaseInterpolate, _NSPointEaseInterpolateBend, 
+                       _NSPointInterpolate, _NSPointIntersection, _NSPointMapToRect, 
+                       _NSPointMoveAwayFromAnchor, _NSPointRandom, _NSPointRotateByQuartersWithSize, 
+                       _NSPointTransform, _NSRectAlignToPoint, _NSRectAlignWithRect, 
+                       _NSRectAreaToRectPoint, _NSRectAspectRatio, _NSRectBoundsForAreaType, 
+                       _NSRectBoundsForAreas, _NSRectCenteredScale, _NSRectCenteredScaleToContain, 
+                       _NSRectCenteredScaleToFill, _NSRectCenteredScaleToFill2, _NSRectCenteredScaleToFillByCropping, 
+                       _NSRectCenteredScaleToFit, _NSRectClampRect, _NSRectClosestArea, 
+                       _NSRectClosestPoint, _NSRectClosestSide, _NSRectContainPoint, 
+                       _NSRectContainRect, _NSRectCouldContainRect, _NSRectDifference, 
+                       _NSRectEaseInterpolate, _NSRectEaseInterpolateBend, _NSRectEdgeInRange, 
+                       _NSRectFromPoints, _NSRectGetCornerPoints, _NSRectGetNSAffineTransform, 
+                       _NSRectGetTransform, _NSRectGrowAtHit, _NSRectGrowSelection, 
+                       _NSRectGrowToContainRect, _NSRectIntegralContainedRect, _NSRectIntegralFloorRect, 
+                       _NSRectIntegralModRect, _NSRectInterpolate, _NSRectIntersectLine, 
+                       _NSRectIsInside, _NSRectIsLandscape, _NSRectMakeBoundingRect, 
+                       _NSRectMakeInscribed, _NSRectMapPoint, _NSRectMapPoint2, _NSRectMapRect, 
+                       _NSRectMapRect2, _NSRectNormalize, _NSRectPixelAlignedRect, 
+                       _NSRectPoint, _NSRectPointToRectArea, _NSRectRandom, _NSRectRotate, 
+                       _NSRectRotateByDegrees, _NSRectScale, _NSRectScaleAroundCenter, 
+                       _NSRectScaleByCGAffineTransform, _NSRectScaleToFill, _NSRectScaleToFill2, 
+                       _NSRectScaleToFit, _NSRectUniformCenteredScale, _NSRectUniformScale, 
+                       _NSRectVector, _NSSizeConformToAspect, _NSSizeEnforceMaxDimension, 
+                       _NSSizeEnforceMaxDimensions, _NSSizeEnforceMinDimension, _NSSizeEnforceMinDimensions, 
+                       _NSSizeFitAspectInSize, _NSSizeFitAspectInSizeNoRounding, 
+                       _NSSizeFitAspectInSizeRounded, _NSSizeFitSizeInSize, _NSSizeFitSizeInSquare, 
+                       _NSSizeGetScaleToFit, _NSSizeRotate, _NSSizeRotateAboutCenterByDegrees, 
+                       _NSSizeRotateByDegrees, _OppositeRectPoint, _PanoramaAspectInverseRatio, 
+                       _PanoramaAspectRatio, _PanoramicThumbnailAspectRatio, _PanoramicThumbnailInverseAspectRatio, 
+                       _PrintMessageToGLContext, _RectEdgeIntersectsRect, _ResetCGContextCTMToIdentity, 
+                       _StringFromBOOL, _initialPathForDefaultsKey, _linearToNonlinear, 
+                       _linearToNonlinearWithRange, _nonlinearToLinear, _nonlinearToLinearWithRange, 
+                       _uniqueMenuItemNamesForFullPaths ]
+    objc-classes:    [ _ExtendedArrayController, _FileAlias, _GraphicsUtilities, 
+                       _LRUQueue, _MaximumLengthFormatter, _MutableBlockArray, _MutableFloatArray, 
+                       _MutableNSRectArray, _MutableObjectIDArray, _MutableUnsignedArray, 
+                       _PFXLinearValueTransformer, _RectGroup, _RectRegion, _Stopwatch, 
+                       _TreeNode ]
+...

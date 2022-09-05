@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 3BFF077D-3F10-32C8-8292-5CE81A24BEAB', 'x86_64: F7A7999F-9509-3C67-8EE9-95BEE6772676' ]
+platform:        macosx
+install-name:    /usr/lib/system/libcopyfile.dylib
+objc-constraint: none
+parent-umbrella: System
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ ___copyfileVersionNumber, ___copyfileVersionString, _copyfile, 
+                       _copyfile_state_alloc, _copyfile_state_free, _copyfile_state_get, 
+                       _copyfile_state_set, _fcopyfile, _xattr_flags_from_name, _xattr_intent_with_flags, 
+                       _xattr_name_with_flags, _xattr_name_without_flags, _xattr_preserve_for_intent ]
+...

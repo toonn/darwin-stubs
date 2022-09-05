@@ -1,0 +1,21 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 8C81ED1F-25ED-37CA-A6FB-6669E198FA44', 'x86_64: DD106A74-556C-376F-9B84-096AB45E9291' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/HeimODAdmin.framework/Versions/A/HeimODAdmin
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _HeimODAddAppleIDAlias, _HeimODAddCertificate, _HeimODAddCertificateSubjectAndTrustAnchor, 
+                       _HeimODAddServerAlias, _HeimODAddSubjectAltCertName, _HeimODAddSubjectAltCertSHA1Digest, 
+                       _HeimODClearACL, _HeimODClearKerberosFlags, _HeimODCopyACL, 
+                       _HeimODCopyDefaultEnctypes, _HeimODCopyKerberosFlags, _HeimODCopyServerAliases, 
+                       _HeimODCopySubjectAltNames, _HeimODCreatePrincipalData, _HeimODCreateRealm, 
+                       _HeimODCreateSRPKeys, _HeimODDumpHdbEntry, _HeimODDumpRecord, 
+                       _HeimODGetKerberosMaxLife, _HeimODGetKerberosMaxRenewable, 
+                       _HeimODKeysetToString, _HeimODLoadRecord, _HeimODModifyKeys, 
+                       _HeimODRemoveAppleIDAlias, _HeimODRemoveCertificateSubjectAndTrustAnchor, 
+                       _HeimODRemovePrincipalData, _HeimODRemoveServerAlias, _HeimODRemoveSubjectAltElement, 
+                       _HeimODSetACL, _HeimODSetKerberosFlags, _HeimODSetKerberosMaxLife, 
+                       _HeimODSetKerberosMaxRenewable, _HeimODSetKeys, _HeimODSetVerifiers ]
+...

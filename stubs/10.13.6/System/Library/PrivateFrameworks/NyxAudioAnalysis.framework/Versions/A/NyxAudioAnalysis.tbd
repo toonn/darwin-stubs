@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: DC1EC455-C6EC-3DEE-909A-30C7AB658196', 'x86_64: 1F498D44-B9BE-3BE8-AA39-CE00B02496EC' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/NyxAudioAnalysis.framework/Versions/A/NyxAudioAnalysis
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _NyxAudioAnalysisCreateCFRepresentation, _NyxAudioAnalysisDispose, 
+                       _NyxAudioAnalysisGetParameter, _NyxAudioAnalysisGetProperty, 
+                       _NyxAudioAnalysisGlobalCopyKeys, _NyxAudioAnalysisInitialize, 
+                       _NyxAudioAnalysisNew, _NyxAudioAnalysisProcess, _NyxAudioAnalysisPushAudio, 
+                       _NyxAudioAnalysisReset, _NyxAudioAnalysisSetParameter, _NyxAudioAnalysisSetProperty ]
+...

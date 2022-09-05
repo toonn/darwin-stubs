@@ -1,0 +1,11 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 8E58BFF3-4C0D-3F0E-830E-020B2FDE413B' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/CloudPhotosConfigurationXPC
+current-version: 3291.13.230
+objc-constraint: none
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CloudPhotosConfigurationXPCVersionNumber, _CloudPhotosConfigurationXPCVersionString ]
+...

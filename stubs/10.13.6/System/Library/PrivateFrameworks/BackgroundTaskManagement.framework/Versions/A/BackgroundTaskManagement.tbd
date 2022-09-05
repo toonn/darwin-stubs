@@ -1,0 +1,22 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 08D459C8-4AF9-378A-B5C1-59D437F5FB8B', 'x86_64: B2A1EEDF-490A-38E2-A896-41057C0417BF' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+current-version: 57.1
+exports:         
+  - archs:           [ x86_64 ]
+    objc-ivars:      [ _BTMAgentConnection._connection, _BTMBackgroundItem._bookmark, 
+                       _BTMBackgroundItem._identifier, _BTMBackgroundItem._type, 
+                       _BTMBackgroundItem._userElection, _BTMBackgroundItemController._delegate, 
+                       _BTMBackgroundItemController._internalItems, _BTMBackgroundItemController._internalQueue, 
+                       _BTMLoginItem._bookmark, _BTMLoginItem._hidden, _BTMLoginItem._identifier, 
+                       _BTMLoginItem._installerBookmark, _BTMLoginItem._type, _BTMLoginItemController._delegate, 
+                       _BTMLoginItemController._internalItems, _BTMLoginItemController._internalQueue, 
+                       _BTMLoginItemController._typeMask ]
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _BackgroundTaskManagementVersionNumber, _BackgroundTaskManagementVersionString, 
+                       _kBTMBackgroundItemsChangeNotification ]
+    objc-classes:    [ _BTMAgentConnection, _BTMBackgroundItem, _BTMBackgroundItemController, 
+                       _BTMBackgroundTaskManager, _BTMLoginItem, _BTMLoginItemController ]
+...

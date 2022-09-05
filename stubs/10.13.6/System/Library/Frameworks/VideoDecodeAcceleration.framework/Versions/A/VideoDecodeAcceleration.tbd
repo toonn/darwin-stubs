@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 12763777-5B57-3357-A64A-9B8E4EDF6ECD', 'x86_64: 839A270F-2AAE-32C0-9B84-EC18362BA2B6' ]
+platform:        macosx
+install-name:    /System/Library/Frameworks/VideoDecodeAcceleration.framework/Versions/A/VideoDecodeAcceleration
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _VDADecoderCreate, _VDADecoderDecode, _VDADecoderDestroy, 
+                       _VDADecoderFlush, _kVDADecoderConfiguration_Height, _kVDADecoderConfiguration_SourceFormat, 
+                       _kVDADecoderConfiguration_Width, _kVDADecoderConfiguration_avcCData, 
+                       _kVDADecoderConfiguration_forceSW, _myVTOutputCallback, _mykVTVideoDecoderSpecification_RequireHardwareAcceleratedVideoDecoder ]
+...

@@ -1,0 +1,12 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 6DFA54F1-04CD-3AD6-A6D1-DE9D35B053AE' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/ContactsDonationFeedback.framework/Versions/A/ContactsDonationFeedback
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _ContactsDonationFeedbackVersionNumber, _ContactsDonationFeedbackVersionString, 
+                       _kCDFErrorDomain, _kCDFInsufficientValuesToHashError, _kCDFMissingIdentifierError, 
+                       _kCDFUnhandledValueTypeError ]
+    objc-classes:    [ _CDFDonationFeedbackStore, _CNDFDonationStringCollector ]
+...

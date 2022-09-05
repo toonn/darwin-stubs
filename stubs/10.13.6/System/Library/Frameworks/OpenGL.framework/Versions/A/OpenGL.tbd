@@ -1,0 +1,30 @@
+--- !tapi-tbd-v2
+archs: [i386, x86_64]
+uuids: ['i386: A8372543-9A9E-34B2-AA10-597CBEBCAA05', 'x86_64: 77A788F3-8F0C-305C-AEB9-FF258676C599']
+platform: macosx
+install-name: /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+objc-constraint: none
+exports:
+- archs: [i386, x86_64]
+  re-exports: [! '@OpenGL@/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib',
+    ! '@OpenGL@/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib']
+  symbols: [_CGLAreContextsShared, _CGLBackDispatch, _CGLChoosePixelFormat, _CGLClearDrawable,
+    _CGLCopyContext, _CGLCreateContext, _CGLCreatePBuffer, _CGLDescribePBuffer, _CGLDescribePixelFormat,
+    _CGLDescribeRenderer, _CGLDestroyContext, _CGLDestroyPBuffer, _CGLDestroyPixelFormat,
+    _CGLDestroyRendererInfo, _CGLDisable, _CGLEnable, _CGLErrorString, _CGLFlushDrawable,
+    _CGLFrontDispatch, _CGLGetContextRetainCount, _CGLGetDeviceFromGLRenderer, _CGLGetGlobalOption,
+    _CGLGetNextContext, _CGLGetOffScreen, _CGLGetOption, _CGLGetPBuffer, _CGLGetPBufferRetainCount,
+    _CGLGetParameter, _CGLGetPixelFormat, _CGLGetPixelFormatRetainCount, _CGLGetShareGroup,
+    _CGLGetSurface, _CGLGetVersion, _CGLGetVirtualScreen, _CGLIsEnabled, _CGLLockContext,
+    _CGLOpenCLMuxLockDown, _CGLQueryRendererInfo, _CGLReleaseContext, _CGLReleasePBuffer,
+    _CGLReleasePixelFormat, _CGLRestoreDispatch, _CGLRestoreDispatchFunction, _CGLRetainContext,
+    _CGLRetainPBuffer, _CGLRetainPixelFormat, _CGLSelectDispatch, _CGLSelectDispatchBounded,
+    _CGLSelectDispatchFunction, _CGLSetFullScreen, _CGLSetFullScreenOnDisplay, _CGLSetGlobalOption,
+    _CGLSetOffScreen, _CGLSetOption, _CGLSetPBuffer, _CGLSetPBufferVolatileState,
+    _CGLSetParameter, _CGLSetSurface, _CGLSetVirtualScreen, _CGLTexImageIOSurface2D,
+    _CGLTexImagePBuffer, _CGLUnlockContext, _CGLUpdateContext, _GLCDescribePixelFormat,
+    _GLCGetPBuffer, _GLCGetParameter, _GLCGetProfilerStorage, _GLCGetSurface, _GLCGetVirtualScreen,
+    _GLCSetProfilerStorage, _cglBadApplicationNotMuxAwareLockDown, _glcDebugListener,
+    _glcGetIOAccelService, _glcNoop, _glcPluginConnect, _glcPluginCount, _glcPluginDisconnect,
+    _glcRecordError]
+...

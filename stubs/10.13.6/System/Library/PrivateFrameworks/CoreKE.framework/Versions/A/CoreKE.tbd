@@ -1,0 +1,13 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 562A790E-5552-30BB-8587-564DDF84D52D', 'x86_64: 47202198-D0FD-32B3-AF45-AC9F276D3BEC' ]
+platform:        macosx
+flags:           [ not_app_extension_safe ]
+install-name:    /System/Library/PrivateFrameworks/CoreKE.framework/CoreKE
+current-version: 4.18.1
+compatibility-version: 1.7
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _IWvA5fm4IwMS88oQXDANCS, _JY0DfiUyFiVcNw89R4t ]
+...

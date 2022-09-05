@@ -1,0 +1,17 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 84388612-08A2-304A-8328-32385EA19013' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/Photo Library Migration Utility.app/Contents/Frameworks/iLifePhotoStreamConfiguration.framework/Versions/A/iLifePhotoStreamConfiguration
+current-version: 3.3
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _PhotoStreamConfigurationApsEnvURLKey, _PhotoStreamConfigurationDidDisablePhotostreamBundleIdentifierKey, 
+                       _PhotoStreamConfigurationDidDisablePhotostreamKey, _PhotoStreamConfigurationEnabledPhotoStreamTypesKey, 
+                       _PhotoStreamConfigurationPersonIDKey, _PhotoStreamConfigurationStreamIDKey, 
+                       _PhotoStreamConfigurationStreamServerURLKey, _PhotoStreamConfigurationStreamTypeClassicPhotoStream, 
+                       _PhotoStreamConfigurationStreamTypeSharedPhotoStream, _iLifePhotoStreamAgentRemovalNotification, 
+                       _iLifePhotoStreamConfigurationDidChangeNotification, _iLifePhotoStreamConfigurationVersionNumber, 
+                       _iLifePhotoStreamConfigurationVersionString, _iLifePhotoStreamTerminationRequestNotification ]
+    objc-classes:    [ _PhotoStreamConfiguration ]
+...

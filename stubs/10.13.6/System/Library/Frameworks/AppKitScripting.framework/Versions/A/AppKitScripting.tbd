@@ -1,0 +1,11 @@
+--- !tapi-tbd-v2
+archs:           [ i386 ]
+uuids:           [ 'i386: C226FB38-C518-350F-A5B6-0C502CED5985' ]
+platform:        macosx
+install-name:    /System/Library/Frameworks/AppKitScripting.framework/Versions/A/AppKitScripting
+current-version: 31
+objc-constraint: none
+exports:         
+  - archs:           [ i386 ]
+    symbols:         [ _NSAppKitScriptingVersionNumber, _NSAppKitScriptingVersionString ]
+...

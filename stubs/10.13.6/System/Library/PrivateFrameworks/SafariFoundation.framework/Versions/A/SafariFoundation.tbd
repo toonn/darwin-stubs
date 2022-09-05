@@ -1,0 +1,16 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 3E89AB49-E928-3173-9794-474323C103BC' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/SafariFoundation
+current-version: 609.3.5
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _SFAutoFillFromAddressBookPreferenceKey, _SFCredentialProviderDeveloperEntitlement, 
+                       _SFCredentialProviderExtensionPointIdentifier, _SFCredentialProviderShowsConfigurationUIKey, 
+                       _SFCredentialProviderSystemEntitlement, _SFExternalCredentialIdentityStoreErrorDomain, 
+                       _SFPasswordCredentialIdentityInvalidRowIdentifier, _maximumNumberOfWebCredentialEntriesToReturnForAppID ]
+    objc-classes:    [ _SFAutoFillFeatureManager, _SFCredentialProviderExtensionState, 
+                       _SFDomainAssociationUtilities, _SFPasswordCredentialIdentity, 
+                       _SFSafariCredential, _SFSafariCredentialStore, _SFSharedWebCredentialsDatabaseEntry ]
+...

@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 228A45E5-3C4B-3264-894F-9D3100B09F5A', 'x86_64: B2F916F4-AF7B-3B74-929D-DA021186CD1E' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/NetFSServer.framework/Versions/A/NetFSServer
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _nsc_server_disable, _nsc_server_enable, _nsc_server_guest_access, 
+                       _nsc_server_isenabled, _nsc_server_isrunning, _nsc_server_shutdown, 
+                       _nsc_server_shutdown_cancel, _nsc_server_shutdown_delay, _nsc_server_status, 
+                       _nsc_server_update, _nsc_session_select, _nsc_sessions_count, 
+                       _nsc_sessions_disconnect, _nsc_sessions_free, _nsc_sessions_get, 
+                       _nsc_shares_free, _nsc_shares_get, _nsc_supported, _nsc_version ]
+...

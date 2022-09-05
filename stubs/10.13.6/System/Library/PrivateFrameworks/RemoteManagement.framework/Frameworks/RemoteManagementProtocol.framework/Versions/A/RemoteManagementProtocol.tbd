@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 9598FBC1-A6EA-3ED8-B543-EF453A674C21' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/RemoteManagement.framework/Frameworks/RemoteManagementProtocol.framework/Versions/A/RemoteManagementProtocol
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _RemoteManagementProtocolVersionNumber, _RemoteManagementProtocolVersionString ]
+    objc-classes:    [ _RMPChangeRequest, _RMPCheckInProtocolAuthenticateRequest, 
+                       _RMPCheckInProtocolCapabilitiesRequest, _RMPCheckInProtocolCheckOutRequest, 
+                       _RMPCheckInProtocolTokenUpdateRequest, _RMPCommandsRequest, 
+                       _RMPErrorResponse, _RMPRemoteManagementRequest, _RMPRemoteManagementResponse, 
+                       _RMPSetRequest, _RMPStatusRequest ]
+...

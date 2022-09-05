@@ -1,0 +1,14 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 9FA62D55-6D8A-374C-8064-E1EC316B539D' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/Email.framework/Versions/A/Email
+current-version: 3445.9.7
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _EMDirectoryNameLostAndFound, _EMDirectoryNameMail, _EMDirectoryNameV1MailData, 
+                       _EMDirectoryNameVersionedMailData, _EMFileNamePersistenceInfo, 
+                       _EMVIPsDidChangeNotification, _EMVIPsRemovedKey, _EMVIPsUpdatedKey, 
+                       _EmailVersionNumber, _EmailVersionString ]
+    objc-classes:    [ _EMPersistenceLayoutManager, _EMVIP, _EMVIPManager ]
+...

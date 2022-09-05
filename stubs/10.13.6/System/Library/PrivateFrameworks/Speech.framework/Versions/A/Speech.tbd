@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 700D155D-E016-3368-B273-A9F507BBB96F' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/Speech.framework/Versions/A/Speech
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _SFIsTV, _SpeechVersionNumber, _SpeechVersionString, _kSFHindiLocaleIdentifier, 
+                       _kSFHindiTranslitKeyboardIdentifier, _kSFHindiTranslitReplacementLocaleIdentifier ]
+    objc-classes:    [ _SFSpeechAudioBufferRecognitionRequest, _SFSpeechRecognitionRequest, 
+                       _SFSpeechRecognitionResult, _SFSpeechRecognitionTask, _SFSpeechRecognizer, 
+                       _SFSpeechURLRecognitionRequest, _SFTranscription, _SFTranscriptionSegment, 
+                       __SFSearchRequest, __SFSearchResult, __SFSpeechRecognitionBlockTask, 
+                       __SFSpeechRecognitionDelegateTask ]
+...

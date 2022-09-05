@@ -1,0 +1,61 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 4E31133D-49F6-3A3D-B4C9-A830C3939654' ]
+platform:        macosx
+install-name:    /System/Library/CoreServices/cloudphotosd.app/Contents/Frameworks/iCloudPhotoLibrary.framework/Versions/A/iCloudPhotoLibrary
+current-version: 3291.13.230
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CPLRecordReconsiderNotSupportedState, _CPLRecordUnquarantine, 
+                       _CSLibraryManagerErrorDomain, _CSLoggingConfigurationChangedNotification, 
+                       _CSMediaMetadataTypeLegacyEditedIPTC, _CSTraceSubsystem, _CSTraceSubsystemActivity, 
+                       _CSTraceSubsystemChangeNotifications, _CSTraceSubsystemDerivativeVideoGeneration, 
+                       _CSTraceSubsystemDiskPressure, _CSTraceSubsystemLibraryManager, 
+                       _CSTraceSubsystemLibraryManagerOperation, _CSTraceSubsystemModelTranslation, 
+                       _CSTraceSubsystemResources, _CSTraceSubsystemResourcesDownload, 
+                       _CSTraceSubsystemResourcesDownloadDerivatives, _CSTraceSubsystemResourcesDownloadOriginals, 
+                       _CSTraceSubsystemResourcesPurge, _CSTraceSubsystemResourcesUpload, 
+                       _CSTraceSubsystemResourcesUploadDerivatives, _CSTraceSubsystemResourcesUploadOriginals, 
+                       _CSTraceSubsystemService, _CSTraceSubsystemTiming, __logIt, 
+                       _iCloudPhotoLibraryVersionNumber, _iCloudPhotoLibraryVersionString, 
+                       _kCPLCacheDeleteServiceId, _kCSPendingUnadjustedUuid, _kValidatorErrorsKey, 
+                       _kValidatorPercentCompleteKey, _kValidatorRunningStateKey, 
+                       _kValidatorStatusMessagesKey, _kValidatorSuccessfullyProcessedMastersKey, 
+                       _kValidatorTotalCompletedMastersKey, _kValidatorTotalMastersInLibraryKey, 
+                       _kValidatorTotalMastersInResetSync, _kValidatorTotalMastersToProcessKey, 
+                       _kValidatorTotalMastersWaitingForDerivatives, _kValidatorTotalMastersWithUnknownStateKey, 
+                       _kValidatorTotalMastersWithoutBothRAWPlusJPEGMastersKey, _kValidatorTotalMastersWithoutDerivativesKey, 
+                       _kValidatorTotalMastersWithoutSynchableVersionsKey, _kValidatorTotalProcessedMastersKey, 
+                       _kValidatorTotalRAWMastersThatArePartOfRAWPlusJPEGMastersKey, 
+                       _kValidatorTotalReferencedMastersKey, _kValidatorTotalUploadableMastersInLibraryKey, 
+                       _kValidatorUnsuccessfullyProcessedMastersKey ]
+    objc-classes:    [ _CSActivityObserver, _CSActivityObserverFactory, _CSActivityObserverRecorder, 
+                       _CSArchive, _CSBatchActivityObserver, _CSCPLPullChangeBatchBuilder, 
+                       _CSCPLPushBatchBuilder, _CSCPLToRDTranslator, _CSChangeBatch, 
+                       _CSCloudIdentifierRepair, _CSCloudPreviewSizeRegistry, _CSCloudState, 
+                       _CSConnectionIdentifierResourceTaskTuple, _CSDatabaseStatus, 
+                       _CSDerivativeGenerator, _CSDerivativeImageFile, _CSDerivativeResource, 
+                       _CSDiskPressureMonitor, _CSDownloadableResource, _CSDownloadableResourceKey, 
+                       _CSIdentifierTuple, _CSLargestInputPreviewSizePolicy, _CSLibraryManager, 
+                       _CSLibraryManagerCloseOperation, _CSLibraryManagerConnectToCloudOperation, 
+                       _CSLibraryManagerDisableCloudLibraryOperation, _CSLibraryManagerEnableCloudLibraryOperation, 
+                       _CSLibraryManagerFetchMissingResourcesOperation, _CSLibraryManagerMovePendingUploadsToUploadedOperation, 
+                       _CSLibraryManagerMoveToModeOperation, _CSLibraryManagerOperation, 
+                       _CSLibraryManagerPauseForLowDiskOperation, _CSLibraryManagerPullOperation, 
+                       _CSLibraryManagerPushOperation, _CSLibraryManagerResumeOperation, 
+                       _CSLibraryManagerStartSyncingOperation, _CSLibraryManagerStopSyncingOperation, 
+                       _CSLibraryManagerUpdateHistoricalMarkerOperation, _CSLibraryValidator, 
+                       _CSLogger, _CSLoggingActivityObserverRecorder, _CSMasterDuplicationRepair, 
+                       _CSMemoryNotificationUpdate, _CSMessageTracer, _CSModelChangeInterestMap, 
+                       _CSModelRecordTuple, _CSModelTableChangeInterest, _CSNSLoggingActivityObserverRecorder, 
+                       _CSOneShotTimer, _CSPhotoLibraryDump, _CSPriorityDownloadQueue, 
+                       _CSPurgeableResourceManager, _CSPushBatch, _CSRDToCPLTranslator, 
+                       _CSRateOfChangeTracker, _CSResourceQueue, _CSResourceTranslator, 
+                       _CSResourceTranslatorIngestionResult, _CSSerializingActivityObserverRecorder, 
+                       _CSTableChanges, _CSTimePeriodChange, _CSTransactionContext, 
+                       _CSTranslator, _CSVideoDerivativeGenerationCanceler, _ImportGroupDateTree, 
+                       _ImportGroupDateTreeNode, _RDAdjustmentDataLookupKey ]
+    objc-ivars:      [ _ImportGroupDateTree._root, _ImportGroupDateTreeNode._date, 
+                       _ImportGroupDateTreeNode._importGroup, _ImportGroupDateTreeNode._left, 
+                       _ImportGroupDateTreeNode._right ]
+...

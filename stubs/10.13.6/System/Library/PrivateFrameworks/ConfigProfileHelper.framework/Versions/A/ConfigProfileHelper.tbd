@@ -1,0 +1,12 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 2C2CB886-12C8-3FCF-9695-9996229165E0' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/ConfigProfileHelper.framework/Versions/A/ConfigProfileHelper
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CPValidateProvisioningDictionariesExtViaBridge, _CPValidateProvisioningDictionariesKeySuccess, 
+                       _CPValidateProvisioningDictionariesKeyVerifiedUsingUPP, _XSCHelperAgentDeserializeReply, 
+                       _XSCHelperAgentErrorDomain, _XSCHelperAgentPerformCommand, 
+                       _XSCHelperAgentPerformCommandAsync, _XSCHelperAgentSerializeRequest ]
+...

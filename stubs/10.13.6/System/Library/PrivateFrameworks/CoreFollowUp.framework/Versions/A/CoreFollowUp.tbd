@@ -1,0 +1,26 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: C76B71E8-7FD3-3608-B7F6-4B37CE44841E' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/CoreFollowUp
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CoreFollowUpVersionNumber, _CoreFollowUpVersionString, _FLDaemonExportedInterface, 
+                       _FLError, _FLErrorDomain, _FLFollowUpActionLaunchArgumentsKey, 
+                       _FLFollowUpItemsKey, _FLFollowUpPreferencesIdentifierPrefix, 
+                       _FLFollowUpPreferencesUrlPrefix, _FLFollowUpSingleActionKey, 
+                       _FLFollowUpSingleItemKey, _FLGroupIdentifierAccount, _FLGroupIdentifierDevice, 
+                       _FLGroupIdentifierUnknown, _FLHSA2ActionChangePassword, _FLInternalItemWhitelistWarning, 
+                       _FLItemRefreshResultFailure, _FLItemRefreshResultRemoved, 
+                       _FLItemRefreshResultSuccess, _FLLoc, _FLLocDeviceSpecific, 
+                       _FLNotificationOptionForce, _FLNotificationOptionLockscreen, 
+                       _FLNotificationOptionNotificationCenter, _FLNotificationOptionSpringboardAlert, 
+                       __FLLocKeyFromDeviceClass, __FLLogSystem, __FLLogSystemQuery ]
+    objc-classes:    [ _FLApprovedItemsDecorator, _FLApprovedItemsFilter, _FLConstants, 
+                       _FLDaemon, _FLEnvironment, _FLExtensionHostContext, _FLFollowUpAction, 
+                       _FLFollowUpController, _FLFollowUpItem, _FLFollowUpNotification, 
+                       _FLGroupViewModelImpl, _FLHSA2LoginNotification, _FLHSA2PasswordResetNotification, 
+                       _FLHeadlessActionHandler, _FLHeadlessExtensionLoader, _FLTelemetryFactory, 
+                       _FLTelemetryProcessor, _FLTopLevelViewModel, _FLUIHelperController, 
+                       _FLUtilities ]
+...

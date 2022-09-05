@@ -1,0 +1,20 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: CD443ADC-07FE-3603-B0C9-60C2AF3616FF' ]
+platform:        macosx
+install-name:    /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSMatrix.framework/Versions/A/MPSMatrix
+current-version: 100.6
+parent-umbrella: MetalPerformanceShaders
+exports:         
+  - archs:           [ x86_64 ]
+    allowable-clients: [ MetalPerformanceShaders ]
+    symbols:         [ __Z21MPSDecrementReadCountP18MPSTemporaryMatrix, __Z21MPSDecrementReadCountP18MPSTemporaryVector ]
+    objc-classes:    [ _MPSMatrix, _MPSMatrixBinaryKernel, _MPSMatrixCopy, _MPSMatrixCopyDescriptor, 
+                       _MPSMatrixDecompositionCholesky, _MPSMatrixDecompositionLU, 
+                       _MPSMatrixDescriptor, _MPSMatrixFindTopK, _MPSMatrixLogSoftMax, 
+                       _MPSMatrixMultiplication, _MPSMatrixSoftMax, _MPSMatrixSolveCholesky, 
+                       _MPSMatrixSolveLU, _MPSMatrixSolveTriangular, _MPSMatrixUnaryKernel, 
+                       _MPSMatrixVectorMultiplication, _MPSTemporaryMatrix, _MPSTemporaryVector, 
+                       _MPSVector, _MPSVectorDescriptor ]
+    objc-ivars:      [ _MPSMatrix._buffer, _MPSVector._buffer ]
+...

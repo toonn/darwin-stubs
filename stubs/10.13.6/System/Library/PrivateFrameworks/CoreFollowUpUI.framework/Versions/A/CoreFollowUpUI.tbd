@@ -1,0 +1,11 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: F05A62EA-0BD8-3CA8-B2E1-4AB8128B70A9' ]
+platform:        macosx
+install-name:    /System/Library/PrivateFrameworks/CoreFollowUpUI.framework/Versions/A/CoreFollowUpUI
+exports:         
+  - archs:           [ x86_64 ]
+    symbols:         [ _CoreFollowUpUIVersionNumber, _CoreFollowUpUIVersionString ]
+    objc-classes:    [ _FLExtensionContext, _FLExtensionViewController, _FLFollowUpActionHandler, 
+                       _FLHostViewController, _FLHostViewService, _FLViewExtensionLoader ]
+...
